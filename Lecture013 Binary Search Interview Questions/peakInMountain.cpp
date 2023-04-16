@@ -9,7 +9,7 @@ public:
 	int mid=(s + e) / 2;
 	while (s < e)
 	{
-		if(v[mid] < v[mid+1])
+		if(v[mid] > v[e])
      			s=mid+1;
     		else
       			e = mid;
